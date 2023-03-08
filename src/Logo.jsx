@@ -1,7 +1,7 @@
-import React from "react";
-import logo from ' \src\assets\ducklogo.svg'
+import React from 'react';
+import logo from '/src/assets/ducklogo.svg'
 
-function logo() {
+const Logo = () => {
   return (
     <div>
       <img src={logo} alt="Logo de duckduckgo" />
