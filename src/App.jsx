@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import duckLogo from './Logo.jsx'
+import './Textdesc.jsx'
 import './App.css'
+import { Textdesc } from './Textdesc.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +12,7 @@ function App() {
       <div>
         <img src={duckLogo} alt="react logo" />
       </div>
-      <h1>Hello PANAAAAAS</h1>
+      <Textdesc />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
