@@ -11,8 +11,8 @@ function App() {
 
   return (
     <div className="App">
-        <div>
-            <img src={duckLogo} alt="react logo" />
+        <div className="logo">
+            <img src={duckLogo} alt="DuckDuckGo logo" className="main_logo"/>
         </div>
         <Textdesc />
         <CheckItem />
