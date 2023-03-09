@@ -6,7 +6,7 @@
 }
 
 .logo {
-  height: 15em;
+  height: 14em;
   padding-right: 1.5em;
   padding-left: 1.5em;
   will-change: filter;
@@ -20,7 +20,7 @@
 }
 
 .main_logo{
-  height: 14em;
+  height: 13em;
 }
 
 @keyframes logo-spin {
