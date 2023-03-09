@@ -11,11 +11,11 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <img src={duckLogo} alt="react logo" />
-      </div>
-      <Textdesc />
-        <CheckItem></CheckItem>
+    <div>
+    <img src={duckLogo} alt="react logo" />
+    </div>
+    <Textdesc />
+    <CheckItem></CheckItem>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
