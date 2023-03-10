@@ -5,6 +5,8 @@ import './App.css'
 import './CheckItem.css'
 import { Textdesc } from './Textdesc.jsx'
 import { CheckItem } from './CheckItem'
+import {InfoCards} from "./InfoCards.jsx";
+import { Button } from './Button.jsx'
 import { Input } from './Input.jsx'
 
 function App() {
@@ -18,6 +20,10 @@ function App() {
         <Input />
         <Textdesc />
         <CheckItem />
+        <Button className="blue" > Añadir DuckDuckGo a Chrome</Button>
+        <Button className="green">Instalar DuckDuckGo </Button>
+
+        <InfoCards/>
     </div>
   )
 }
