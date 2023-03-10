@@ -26,15 +26,14 @@ function App() {
         <Input/>
         <CheckItem />
         <Button className="blue" > Añadir DuckDuckGo a Chrome</Button>
-        <Button className="green">Instalar DuckDuckGo </Button>
+        <InfoCards/>
         <Textdesc className='textdesc'>
             No guardamos tu información <br></br> personal. Y nunca lo haremos. 
         </Textdesc>
         <Textdescparagraph className='textdesc'>
         Nuestra política de privacidad es simple: No colectamos <br></br> o compartimos ninguna información personal tuya.
         </Textdescparagraph>
-
-        <InfoCards/>
+        <Button className="green">Instalar DuckDuckGo </Button>
     </div>
   )
 }
