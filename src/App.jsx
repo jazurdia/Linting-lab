@@ -26,6 +26,12 @@ function App() {
         <Input/>
         <CheckItem />
         <Button className="blue" > Añadir DuckDuckGo a Chrome</Button>
+        <Textdescparagraph className='textdescpar'>
+        ¡Con la confianza de decenas de millones de personas en todo el mundo!
+        </Textdescparagraph>
+        <Textdesc className='textdesc'>
+        Protección de la Privacidad para Cualquier Dispositivo
+        </Textdesc>
         <InfoCards/>
         <Textdesc className='textdesc'>
             No guardamos tu información <br></br> personal. Y nunca lo haremos. 
