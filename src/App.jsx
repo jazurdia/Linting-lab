@@ -21,6 +21,7 @@ function App() {
             <h2>¿Cansado de que te rastreen? Podemos ayudarte.</h2>
             <p>Consigue protección continua y gratuita para tu privacidad en el navegador con una descarga:</p>
         </div>
+        <Input/>
         <CheckItem />
         <Button className="blue" > Añadir DuckDuckGo a Chrome</Button>
         <Button className="green">Instalar DuckDuckGo </Button>
