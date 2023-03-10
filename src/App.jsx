@@ -5,6 +5,7 @@ import './App.css'
 import './CheckItem.css'
 import { Textdesc } from './Textdesc.jsx'
 import { CheckItem } from './CheckItem'
+import {InfoCards} from "./InfoCards.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         </div>
         <Textdesc />
         <CheckItem />
+        <InfoCards/>
     </div>
   )
 }
