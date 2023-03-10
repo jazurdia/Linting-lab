@@ -3,7 +3,8 @@ import './Input.css';
 
 const Input = () => {
   return (
-    <form className="search_form">
+    <div>
+        <form className="search_form">
         <input
             className = "search_input"
             placeholder="Busca en la red sin que te rastreen"
@@ -19,6 +20,8 @@ const Input = () => {
         </input>
 
     </form>
+    </div>
+    
   );
 }
 
