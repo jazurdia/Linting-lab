@@ -19,7 +19,7 @@ function App() {
         <Textdesc />
         <CheckItem />
         <Button className="blue" > Añadir DuckDuckGo a Chrome</Button>
-        <Button className="grey">Instalar DuckDuckGo </Button>
+        <Button className="green">Instalar DuckDuckGo </Button>
 
         <InfoCards/>
     </div>
