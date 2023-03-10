@@ -1,4 +1,4 @@
-import "./textdesc.css"
+import "./Textdesc.css"
 
 const Textdesc = (props) => {
     return (
