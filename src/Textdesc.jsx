@@ -5,13 +5,13 @@ const text = {
 
 }
 
-const Textdesc = () => {
+const Textdesc = (props) => {
     return (
         <div className="textdesc">
-            <h2>{text.principal}</h2>
-            <p>{text.secondary}</p>
+            <h2>{props.children}</h2>
+            <p>{props.children}</p>
         </div>
     )
 }
 
-export { Textdesc}
+export { Textdesc }
