@@ -6,6 +6,7 @@ import './CheckItem.css'
 import { Textdesc } from './Textdesc.jsx'
 import { CheckItem } from './CheckItem'
 import {InfoCards} from "./InfoCards.jsx";
+import { Button } from './Button.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,8 @@ function App() {
         </div>
         <Textdesc />
         <CheckItem />
+        <Button className="blue" > Añadir DuckDuckGo a Chrome</Button>
+
         <InfoCards/>
     </div>
   )
