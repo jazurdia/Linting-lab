@@ -6,24 +6,22 @@ const info_text= {
     card_3_info: 'Nuestro navegador privado para móviles viene equipado con nuestro motor de búsqueda, bloqueador de rastreadores, mejora de encriptación y más. Disponible para iOS y Android.'
 }
 
+const Card = ({img, title, info}) => {
+    return (
+        <div className="info_card">
+            <img src={img} alt="Laptop" className="img_card"/>
+            <div className="card_title">{title}</div>
+            <div className="card_info">{info}</div>
+        </div>
+    )
+}
+
 const InfoCards = () => {
     return (
         <div className="info_cards_cont">
-            <div className="info_card">
-                <img src="src/assets/laptop.svg" alt="Laptop" className="img_card"/>
-                <div className="card_title">Privacidad para Chrome</div>
-                <div className="card_info">{info_text.card_1_info}</div>
-            </div>
-            <div className="info_card">
-                <img src="src/assets/search.svg" alt="Laptop" className="img_card"/>
-                <div className="card_title">Motor de Búsqueda Privada</div>
-                <div className="card_info">{info_text.card_2_info}</div>
-            </div>
-            <div className="info_card">
-                <img src="src/assets/mobile.svg" alt="Laptop" className="img_card"/>
-                <div className="card_title">Navegador Privado</div>
-                <div className="card_info">{info_text.card_3_info}</div>
-            </div>
+            <Card img="src/assets/laptop.svg" title="Privacidad para Chrome" info={info_text.card_1_info}/>
+            <Card img="src/assets/search.svg" title="Motor de Búsqueda Privada" info={info_text.card_2_info}/>
+            <Card img="src/assets/mobile.svg" title="Navegador Privado" info={info_text.card_3_info}/>
         </div>
     )
 }
