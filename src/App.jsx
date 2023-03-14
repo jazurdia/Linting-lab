@@ -17,13 +17,13 @@ function App() {
         <div className="logo">
             <img src={duckLogo} alt="DuckDuckGo logo" className="main_logo"/>
         </div>
+        <Input/>
         <Textdesc className='textdesc'>
             ¿Cansado de que te rastreen? Podemos ayudarte.
         </Textdesc>
         <Textdescparagraph className='textdesc'> 
           No almacenamos información personal. No te persegimos con anuncios. No te rastreamos nunca.
         </Textdescparagraph>
-        <Input/>
         <CheckItem />
         <Button className="blue" > Añadir DuckDuckGo a Chrome</Button>
         <Textdescparagraph className='textdescpar'>
