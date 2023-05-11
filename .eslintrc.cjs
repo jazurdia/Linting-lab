@@ -28,5 +28,6 @@ module.exports = {
       {'code':120}
       ],
     'prettier/prettier': ['warn', {'semi': false, 'tabWidth': 4}],
+    "jsx-a11y/tabindex-no-positive": "off",
   },
 };

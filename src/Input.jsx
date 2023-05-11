@@ -18,3 +18,5 @@ function Input() {
 }
 
 export default Input
+
+// Se modificó la regla "tabindex" porque afecta la funcionalidad del sitio.
