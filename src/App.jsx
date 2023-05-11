@@ -4,10 +4,10 @@ import { Textdesc, Textdescparagraph } from "./Textdesc"
 import "./App.css"
 import "./CheckItem.css"
 
-import { CheckItem } from "./CheckItem"
-import { InfoCards } from "./InfoCards"
+import CheckItem from "./CheckItem"
+import InfoCards from "./InfoCards"
 import Button from "./Button"
-import { Input } from "./Input"
+import Input from "./Input"
 import "./fondo.css"
 
 function App() {
