@@ -47,13 +47,19 @@
 }
 
 .fondoup{
-  background-color: #353748;
-  margin: 0%;
+  background-color: #222;
+}
+
+.fondomid{
+  background-color: #58b792;
+  margin: 0;
+  padding: 0;
 }
 
 .fondodown{
   background-color: #58b792;
-  margin: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 .curva{
@@ -61,3 +67,7 @@
   display: block;
 }
 
+.app{
+  position: absolute;
+
+}

@@ -1,5 +1,4 @@
 import React from "react"
-import duckLogo from "./Logo"
 import { Textdesc, Textdescparagraph } from "./Textdesc"
 import "./App.css"
 import "./CheckItem.css"
@@ -16,9 +15,14 @@ function App() {
             <div className="fondoup">
                 <div className="logo">
                     <img
-                        src={duckLogo}
-                        alt="DuckDuckGo logo"
-                        className="main_logo"
+                        src="../src/assets/ducklogo.svg"
+                        alt="Logo de duckduckgo"
+                        style={{
+                            width: "400px",
+                            height: "200px",
+                            margin: "auto",
+                            marginBottom: "50px",
+                        }}
                     />
                 </div>
                 <Input />
@@ -38,7 +42,6 @@ function App() {
                 <Textdesc className="textdesc">
                     Protección de la Privacidad para Cualquier Dispositivo
                 </Textdesc>
-
                 <svg
                     className="curva"
                     xmlns="http://www.w3.org/2000/svg"
